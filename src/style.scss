@@ -1,31 +1,40 @@
-@import "./scss/picture.scss";
-@import "./scss/fonts";
+@import './scss/test';
+@import './scss/fonts';
 
-$background: rgb(93, 255, 101);
+$background: rgb(166, 147, 225);
 
 body {
   background-color: $background;
-  font-family: "Caveat";
-  font-size: 30px;
+  font-family: 'Caveat';
+  font-size: 28px;
+  color: rgb(79, 72, 72);
 
   img {
-    width: 100px;
-    height: 100px;
+    width: 350px;
+    height: 250px;
   }
 }
 
-.testsvg {
-  background-color: #000000e4;
-  height: 200px;
-  background-image: url("./img/icons/logo.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
+.images {
+  display: block;
+  margin-top: 50px;
+  background: #7a2d70;
 }
 
-.testsvg-1 {
-  background-color: #e30fffe4;
-  stroke: #000;
-  width: 50px;
-  height: 50px;
-  fill: #000;
+.svgtest1 {
+  width: 150px;
+  height: 170px;
+  padding: 50px;
+  margin-top: 50px;
+  background: #e1dbe6;
+  fill: rgb(22, 119, 26);
+}
+
+.svgtest2 {
+  width: 150px;
+  height: 170px;
+  padding: 50px;
+  margin-top: 50px;
+  background: #e1dbe6;
+  fill: tomato;
 }
